@@ -5,7 +5,7 @@ This repository contains MATLAB code for Bayesian Additive Regression Trees (BAR
 - `Boston.m`: main file for the forecasting practice
 - `BART.m`: function for the posterior sampling of BART
 - `fitBART.m`: function for computing fitted values for training dataset based on the sampled trees
-- `fitBART_test.m': function for computing for testing dataset based on the sampled trees
+- `fitBART_test.m`: function for computing for testing dataset based on the sampled trees
 - `BLM.m`: function for the posterior sampling of a Bayesian linear regression model
 - `BostonHousing.csv`: dataset used
 - `Utility`: a folder contains useful functions

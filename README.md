@@ -11,7 +11,7 @@ This repository contains MATLAB code for Bayesian Additive Regression Trees (BAR
 - `Utility`: a folder contains useful functions
 
 # Notes
-I used 5 trees in the code and compared the forecasting performance of BART to OLS and Bayesian linear regression. You can change the number of trees by changing the value of `m`. I followed Chipman et al. (2010) for priors, except the tree movements: I only allow three moves - growing, pruning and changing (no swapping), and they have equal probabilities (1/3). 
+I used 5 trees in the code and compared the forecasting performance of BART to OLS and Bayesian linear regression. You can change the number of trees by changing the value of `m`. I followed Chipman et al. (2010) for priors. For simplicity, I only allow three moves - growing, pruning and changing (no swapping), and they have equal probabilities (1/3). 
 
 The root mean squared error (RMSE) using BART is around 4.73, while using OLS and linear regression produce RMSEs around 5.12.
 

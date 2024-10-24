@@ -1,6 +1,8 @@
 # Coding Bayesian Additive Regression Trees Using MATLAB
 This repository contains MATLAB code for Bayesian Additive Regression Trees (BART). While many machine learning packages in R and Python offer efficient implementations, as an econometrician, I find it useful to code these algorithms from scratch, as it deepens my understanding of the model's underlying structure.
 
+I thank [Kai Zhao](https://ayzk.github.io/) for his constructive comments on the codes. All remaining errors are my own.
+
 # Files and Data
 For better illustration, I included codes for a forecasting practice using Boston Housing dataset.
 - `Boston.m`: main file for the forecasting practice
